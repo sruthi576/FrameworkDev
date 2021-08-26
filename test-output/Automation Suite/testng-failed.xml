@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Automation Suite]">
+  <test thread-count="5" name="Automation test(failed)" parallel="classes">
+    <classes>
+      <class name="com.test.LoginandSearch">
+        <methods>
+          <include name="login_Negative"/>
+          <include name="search"/>
+          <include name="beforeSuite"/>
+          <include name="initialization"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.test.LoginandSearch -->
+    </classes>
+  </test> <!-- Automation test(failed) -->
+</suite> <!-- Failed suite [Automation Suite] -->
